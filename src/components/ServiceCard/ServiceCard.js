@@ -4,7 +4,7 @@ import "./ServiceCard.scss";
 
 const ServiceCard = ({ service }) => {
   const imgStyle = {
-    backgroundImage: `url(./${service.imageUrl})`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/${service.imageUrl})`,
     backgroundSize: "cover",
     width: "100%",
     height: "80%",

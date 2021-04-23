@@ -1,11 +1,13 @@
-h2 {
-  margin-left: 16px;
+.homepage-container {
+  h2 {
+    margin-left: 16px;
 
-  .social-media-links {
-    color: chocolate;
-    transition: 0.3s;
-    &:hover {
-      color: white;
+    .social-media-links {
+      color: chocolate;
+      transition: 0.3s;
+      &:hover {
+        color: white;
+      }
     }
   }
 }

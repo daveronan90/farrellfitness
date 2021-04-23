@@ -6,7 +6,7 @@ import "./HomePage.scss";
 
 const HomePage = () => {
   return (
-    <div className="homepage-grid-container">
+    <div className="homepage-container">
       <MainVideo />
       <ServicesList />
       <h2>
