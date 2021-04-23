@@ -1,0 +1,55 @@
+.services-list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+    "service-card1 service-card2 service-card3"
+    "service-card4 service-card5 service-card6"
+    "service-card8 service-card7 service-card9";
+}
+
+.service-card1 {
+  grid-area: service-card1;
+}
+.service-card2 {
+  grid-area: service-card2;
+}
+.service-card3 {
+  grid-area: service-card3;
+}
+.service-card4 {
+  grid-area: service-card4;
+}
+.service-card5 {
+  grid-area: service-card5;
+}
+.service-card6 {
+  grid-area: service-card6;
+}
+.service-card7 {
+  grid-area: service-card7;
+}
+.service-card8 {
+  grid-area: service-card8;
+}
+.service-card9 {
+  grid-area: service-card9;
+}
+
+@media screen and (max-width: 550px) {
+  .services-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 200px);
+    grid-template-areas:
+      "service-card1"
+      "service-card2"
+      "service-card3"
+      "service-card4"
+      "service-card5"
+      "service-card6"
+      "service-card7"
+      "service-card8"
+      "service-card9";
+  }
+}

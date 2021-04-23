@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  min-height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  .header-container {
+    margin: 0 10px;
+    width: 50%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .social-media-container {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    margin: 0 10px;
+
+    .nav-items {
+      min-width: 30px;
+      cursor: pointer;
+
+      &:hover {
+        color: chocolate;
+      }
+
+      a:hover {
+        color: chocolate;
+      }
+    }
+  }
+}
